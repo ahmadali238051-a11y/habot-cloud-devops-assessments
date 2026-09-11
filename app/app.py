@@ -1,4 +1,3 @@
-API_KEY = "sk_test_1234567890abcdef"
 from flask import Flask
 
 app = Flask(__name__)

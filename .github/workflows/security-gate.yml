@@ -33,3 +33,6 @@ jobs:
 
       - name: Scan for secrets
         uses: gitleaks/gitleaks-action@v2
+
+      - name: Run dependency security scan
+        run: pip-audit
